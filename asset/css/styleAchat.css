@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Police_Lobster";
+    src: url("../fonts/MilestoneFreeVersion-Script.otf");
+}
+
+/* header */
+.entete {
+    background-image: url(../images/HEADER_autres_pages.jpg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Police_Lobster";
+    font-size: 65px;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Barre Nav */
+/* barre de navigation */
+
+li {
+    color: black;
+    z-index: 100;
+}
+
+.back {
+    background-color: rgba(93, 37, 37);
+    opacity: 60%;
+    z-index: 10;
+}
+
+.navbar-light .navbar-nav .tools {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 480px) {
+    .tools {
+        height: 20px;
+    }
+
+    .back {
+        font-size: 8pt;
+    }
+}
+
+.navbar-nav .tools {
+    padding-right: 0px;
+}
+
+/* Style pour le slider de photo */
+.containerSlider {
+    margin-bottom: 100px;
+    padding: 30px;
+    width: 100%;
+    height: 800px;
+    background-color: rgba(117, 7, 8, 0.9);
+}
+
+#carouselExampleControls {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    /* permet d'avoir des images responsives */
+}
+
+h2 {
+    font-size: 55px;
+    font-family: "Police_Lobster";
+    color: grey;
+}
+
+h3 {
+    font-weight: bold;
+    color: grey;
+}
+
+/* page Achat */
+.wdth {
+    width: 77px;
+}
+
+.btnBack {
+    background-color: rgba(117, 7, 8, 0.8)
+}
+
+.bg {
+    background-color: rgba(117, 7, 8, 0.9);
+    height: auto;
+    /* border-radius: 18px; */
+}
+
+.size {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.size1 {
+    width: 100%;
+}
+
+.card {
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px rgba(117, 7, 8, 0.9);
+    text-align: center;
+}
+
+.card>img {
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+.fontSizeParaCard {
+    font-size: 12px
+}
+
+/* partie responsive */
+
+@media screen and (max-width: 900px) {
+
+    /* Style pour le slider de photo */
+    .containerSlider {
+        width: 90%;
+        height: 450px;
+    }
+
+    .fontSizeTitre {
+        font-size: 30px;
+    }
+
+    .fontSizeParagraphe {
+        font-size: 15px;
+    }
+
+
+    #carouselExampleControls {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .carousel-item img {
+        /* height: 300px; */
+        height: 250px;
+    }
+
+    .card {
+        /* margin-left: 0px;
+            margin-right: 0px; */
+        box-shadow: 5px 10px 10px rgba(117, 7, 8, 0.9);
+    }
+
+    .ml-5 {
+        margin-left: 0px !important;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .padd {
+        padding-top: 10px;
+    }
+
+    .tailleLogo {
+        width: 40px;
+        height: 70px;
+    }
+
+    /* .tailleGuit{
+        width: 40px;
+        height: 40px;
+    } */
+
+    .wdth {
+        width: 58px;
+        font-size: 10px;
+    }
+
+}

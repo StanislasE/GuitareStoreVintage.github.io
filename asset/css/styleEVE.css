@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Police_Lobster";
+    src: url("../fonts/MilestoneFreeVersion-Script.otf");
+}
+
+/* HEADER */
+.entete{
+    background-image: url(../images/HEADER_autres_pages.jpg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    background-size: cover;
+}
+h1{
+    font-family: "Police_Lobster";
+    font-size: 65px;
+    color: white;
+}
+/* barre de navigation */
+li{
+    color: black;
+    z-index: 100;
+}
+.back{
+    background-color: rgba(93, 37, 37);
+    opacity: 60%;
+    z-index: 10;
+}
+.navbar-light .navbar-nav .tools{
+    color: #FFFFFF;
+}
+@media screen and (max-width: 480px){
+    .tools{
+    height: 20px;
+    }
+    .back{
+    font-size: 8pt;
+    }
+}
+.navbar-nav .tools{
+    padding-right: 0px;
+}
+/* Bloc evenements */
+.EVE{
+    background-color: #750708;
+
+    height: 120px;
+    margin-top: 60px;
+    color: wheat;
+    text-align: center;
+    font-family: "Police_Lobster";
+    font-size: 30px;
+}
+/* bloc festival */
+.festival{
+    display: flex;
+    background-color: #750708;
+    height: 100px;
+    margin-top: 60px;
+    color: wheat;
+    text-align: center;
+    font-family: "Police_Lobster";
+    font-size: 30px; 
+}
+/* Bloc formulaire */
+.formulaire{
+    background-color: #750708;
+    height: 120px;
+    margin-top: 60px;
+    color: wheat;
+    text-align: center;
+    font-family: "Police_Lobster";
+    font-size: 30px;
+}
+.nom ,.mail ,.telephone ,.personne{
+    background-color: rgba(117, 8, 9, 0.6);
+} 
+.inscrire{
+    display: flex;
+    background-image: url(../images/charles-asselin-PgevB7av3eU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* footer */
+@media screen and (max-width: 900px){
+.none{
+    display: none;
+}
+.padd{
+    padding-top: 10px;
+}
+.tailleLogo{
+    height: 70px;
+}
+}
+.bg{
+    background-color: #750708;
+}
